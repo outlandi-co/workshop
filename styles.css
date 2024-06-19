@@ -1,0 +1,70 @@
+/* styles.css */
+
+/* Global styles */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 0;
+}
+
+/* Centered content */
+.centered {
+  text-align: center;
+}
+
+/* Title Slide styles */
+.title-slide {
+  padding: 4rem;
+}
+
+.navy-bg {
+  background-color: #001f3f; /* Navy Blue background color */
+  color: #ffd700; /* Gold text color */
+  padding: 4rem;
+}
+
+.title-slide h1 {
+  font-size: 3.5rem;
+  margin-bottom: 1rem;
+}
+
+.title-slide .subtitle {
+  font-size: 1.5rem;
+  margin-top: 0;
+}
+
+/* Slide content styles */
+section {
+  padding: 4rem;
+}
+
+section h2 {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+}
+
+section p {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  margin-bottom: 1rem;
+}
+
+section ul {
+  list-style-type: disc;
+  padding-left: 2rem;
+  text-align: left;
+}
+
+section ul li {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+
+/* Customizations for specific sections if needed */
+
+/* Example: Company Experience */
+section:nth-child(4) {
+  background-color: #001f3f; /* Navy Blue background color */
+  color: #ffd700; /* Gold text color */
+}
